@@ -1,0 +1,31 @@
+.Recommended-container{
+    flex-basis:29%;
+}
+.recommended-video{
+    display:flex;
+    justify-content:center;
+    margin-bottom:10px;
+}
+.recommended-video img{
+    width:50%;
+    flex-basis:49%;
+}
+.video-info{
+    flex-basis:49%;
+    margin:5px;
+}
+.video-info h4{
+    font-size:14px;
+    text-transform:capitalize;
+    margin-bottom:5px;
+}
+.video-info p,span{
+    font-weight:400;
+    font-size:13px;
+}
+
+@media (max-width:900px) {
+    .Recommended-container{
+        flex-basis:100%;
+    }
+}

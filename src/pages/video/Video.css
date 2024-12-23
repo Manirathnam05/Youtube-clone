@@ -1,0 +1,15 @@
+.video-cointainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 2%;
+    width: 100%;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+@media (max-width:900px) {
+    .video-cointainer{
+        padding-left:5%;
+        padding-right:5%;
+    }
+}
